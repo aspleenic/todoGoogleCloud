@@ -115,3 +115,14 @@ Completed 200 OK in 623ms (Views: 606.0ms | ActiveRecord: 0.9ms)
 
 
 Started GET "/assets/application.self-0e03f5652bc0e3dd32163505c382ffb24c619bf79eb5f5bad03a8db3a5d53a3c.css?body=1" for ::1 at 2017-03-08 09:53:12 +0200
+
+
+Started GET "/" for ::1 at 2017-03-09 15:51:07 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TodoListsController#index as HTML
+  [1m[35mTodoList Load (0.6ms)[0m  SELECT "todo_lists".* FROM "todo_lists"
+  Rendered todo_lists/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 237ms (Views: 221.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.self-0e03f5652bc0e3dd32163505c382ffb24c619bf79eb5f5bad03a8db3a5d53a3c.css?body=1" for ::1 at 2017-03-09 15:51:08 +0200
