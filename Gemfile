@@ -34,6 +34,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# For file shipping to logz.io
+gem 'fluentd'
+gem 'fluent-plugin-logzio'
+
 # Adding Font Awesome
 gem 'font-awesome-sass'
 
